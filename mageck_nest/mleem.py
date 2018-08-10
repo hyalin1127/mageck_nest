@@ -15,8 +15,8 @@ import numpy as np
 import numpy.linalg as linalg
 import copy
 
-from mleclassdef import *
-from mledesignmat import *
+from mageck_nest.mleclassdef import *
+from mageck_nest.mledesignmat import *
 import logging
 
 def getloglikelihood2(kmat,mu_estimate,alpha,sumup=False,log=True):
