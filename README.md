@@ -30,10 +30,13 @@ gene2_gRNA_2  gene2    85                    38
 ```
 # Installation #
 
+```
+python setup.py install
+```
 # Usage #
 
 ```
-python3 mageck_nest.py nest [-h] -k COUNT_TABLE -d DESIGN_MATRIX
+mageck_nest.py [-h] -k COUNT_TABLE -d DESIGN_MATRIX
                            [-n OUTPUT_PREFIX] [-i INCLUDE_SAMPLES]
                            [-b BETA_LABELS]
                            [--norm-method {none,median,total,control}]
