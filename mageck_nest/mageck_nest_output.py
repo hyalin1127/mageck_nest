@@ -8,11 +8,11 @@ import numpy as np
 import statsmodels.api as sm
 import logging
 from collections import defaultdict
-from gsea import *
+from mageck_nest.gsea import *
 import operator
 import itertools
-from mleinstanceio import *
-from mageck_nest_PPI import *
+from mageck_nest.mleinstanceio import *
+from mageck_nest.mageck_nest_PPI import *
 
 def nest_output(self,mark):
     os.chdir(self.output_directory)
