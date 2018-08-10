@@ -10,17 +10,17 @@ import logging
 import pickle
 from collections import defaultdict
 
-from mleinstanceio import *
-from mleem import iteratenbem
-from mlemeanvar import MeanVarModel
-from mageckCount import normalizeCounts
-from bayes_selection import *
-from dispersion_characterization import *
-from mleargparse import *
-from mageck_nest_PPI import *
-from mageck_nest_output import *
-from mleclassdef import *
-from outliers_candidates import *
+from mageck_nest.mleinstanceio import *
+from mageck_nest.mleem import iteratenbem
+from mageck_nest.mlemeanvar import MeanVarModel
+from mageck_nest.mageckCount import normalizeCounts
+from mageck_nest.bayes_selection import *
+from mageck_nest.dispersion_characterization import *
+from mageck_nest.mleargparse import *
+from mageck_nest.mageck_nest_PPI import *
+from mageck_nest.mageck_nest_output import *
+from mageck_nest.mleclassdef import *
+from mageck_nest.outliers_candidates import *
 
 class Mageck_nest():
     def __init__(self, options):
