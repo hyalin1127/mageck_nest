@@ -153,3 +153,6 @@ mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.t
 ```
 mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q -p
 ```
+
+# Contact #
+Chen-Hao Chen (hyalin1127@gmail.com)
