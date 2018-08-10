@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+
+from mageck_nest.argParser import *
+from mageck_nest.mageck_nest import *
+
+def mageck_nest_main(pvargs=None,parsedargs=None,returndict=False):
+    initial_args=crisprseq_parseargs()
+    args=postargs(initial_args)
+    g=Mageck_nest(args)
+    g.nest_init()
+    g.nest_fitting()
+    g.nest_basic()
+
+    if args.PPI_prior==True or args.outliers_removal==True:
+        g.constant_optimization()
+        g.nest_iteration()
+    logging.info("Done! Thanks~!")
+
+if __name__ == '__main__':
+    try:
+        mageck_nest_main()
+    except KeyboardInterrupt:
+        sys.stderr.write("User interrupt me! ;-) Bye!\n")
+        sys.exit(0)

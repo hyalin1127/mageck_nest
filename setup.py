@@ -2,8 +2,6 @@
 '''
 MAGeCK set up script
 '''
-
-
 from __future__ import print_function;
 
 import os
@@ -25,14 +23,14 @@ def main():
 
   setup(
     name='mageck_nest',
-    version='3.0',
     author='Chen-Hao Chen, Wei Li',
-    url='https://chenhaochen@bitbucket.org/liulab/mageck_nest.git',
-    packages=['mageck_nest_v3'],
-    package_dir={'mageck_nest_v3':'mageck_nest_v3'},
-    package_data={'mageck_nest_v3':['*.p']}
+    author_email='hyalin1127@gmail.com',
+    url='https://hyalin1127@bitbucket.org/hyalin1127/mageck_nest.git',
+    packages=['mageck_nest'],
+    scripts = ['bin/mageck_nest'],
+    package_dir={'mageck_nest':'mageck_nest'},
+    #package_data={'mageck_nest':['*.p']}
   );
-
 
 if __name__ == '__main__':
   main();
