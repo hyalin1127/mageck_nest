@@ -36,7 +36,7 @@ def crisprseq_parseargs():
     advancegroup.add_argument("-q","--QC_metric",action='store_true',help="Specify whether you want to derive quality control metrics")
 
     advancegroup=subm_nest.add_argument_group(title='Example',
-    description='python3 mageck_nest.py nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q')
+    description='mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q')
     #--------------------------------------------------------------------------------
     args=parser.parse_args()
 
