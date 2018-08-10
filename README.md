@@ -145,11 +145,11 @@ Optional arguments for PPI incorporation and outliers removal:
 * QC only
 * Use "AAVS1" as negative controls
 ```
-python3 mageck_nest.py nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q
+mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q
 ```
 * QC
 * PPI-integration
 * Use "AAVS1" as negative controls
 ```
-python3 mageck_nest.py nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q -p
+mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.txt --norm-method control -e AAVS1 -d "1,0;1,1" -q -p
 ```
