@@ -5,7 +5,7 @@ Reading and writing instances
 
 import sys
 import numpy as np
-from mleclassdef import *
+from mageck_nest.mleclassdef import *
 from collections import defaultdict
 import itertools
 
