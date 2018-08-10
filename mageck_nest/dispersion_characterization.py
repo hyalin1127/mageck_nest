@@ -8,8 +8,8 @@ from scipy.special import factorial,gamma
 import scipy
 import scipy.stats
 from collections import defaultdict
-from mleclassdef import *
-from mledesignmat import *
+from mageck_nest.mleclassdef import *
+from mageck_nest.mledesignmat import *
 import logging
 import decimal
 
