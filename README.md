@@ -155,4 +155,4 @@ mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.t
 ```
 
 # Contact #
-Chen-Hao Chen (hyalin1127@gmail.com)
+Chen-Hao Chen (chen-hao_chen@dfci.harvard.edu)
