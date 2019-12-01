@@ -135,7 +135,7 @@ Optional arguments for PPI incorporation and outliers removal:
  loglikelihood  
 ```
 * Histogram of beta score distribution
-![Histogram of beta score](https://github.com/hyalin1127/mageck_nest/blob/master/Hist%20of%20beta_1%20beta%20value%20mageck_nest_KBM7_1_non_essential_PPI_major_outliers_removal_major%20.pdf)
+![Histogram of beta score]()
 
 * [QQplot of wald_p value]: The distribution of p value against uniform distribution
 [QQplot of wald_p value]:https://bitbucket.org/liulab/mageck_nest/downloads/QQplot%20of%20wald_p%20value%20demo.pdf
