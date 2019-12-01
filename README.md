@@ -137,8 +137,8 @@ Optional arguments for PPI incorporation and outliers removal:
 * Histogram of beta score distribution
 ![Histogram of beta score](https://github.com/hyalin1127/mageck_nest/blob/master/Histogram_of_beta_scores_demo.png)
 
-* [QQplot of wald_p value]: The distribution of p value against uniform distribution
-[QQplot of wald_p value]:https://bitbucket.org/liulab/mageck_nest/downloads/QQplot%20of%20wald_p%20value%20demo.pdf
+* The distribution of p value against uniform distribution
+![QQplot of wald_p value]:(https://github.com/hyalin1127/mageck_nest/blob/master/QQplot_of_pvalues.png)
 
 # Demonstration #
 * QC only
