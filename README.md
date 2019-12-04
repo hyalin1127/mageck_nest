@@ -155,3 +155,6 @@ mageck_nest nest -n mageck_nest_cell_line_A -i day_0,week_4 -k readcount_table.t
 
 # Contact #
 Chen-Hao Chen (chen-hao_chen@dfci.harvard.edu)
+
+# Citation #
+Chen, C. H. et al. Improved design and analysis of CRISPR knockout screens. Bioinformatics 34, 4095–4101 (2018).
