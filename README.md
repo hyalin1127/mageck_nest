@@ -1,6 +1,7 @@
 Integrative CRISPR analysis using MAGeCK-NEST
 ====================================================================================
 Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout (MAGeCK_NEST) is a computational tool to identify important genes from the genome-scale CRISPR-Cas9 knockout screens technology. Based on the previous generation, MAGeCK_VISPR, MAGeCK_NEST includes some new features, including:
+
 ```
 * Outliers removal.
 * Protein-protein interaction information integration.
